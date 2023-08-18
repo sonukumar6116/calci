@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-family: "Tektur", cursive;
+}
+
+.Color-B {
+  background-color: black;
+  color: white;
+}
+
+.Color-W {
+  background-color: white;
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+h2 {
+  padding-left: 1rem;
+  background-color: #6c6c6d;
+  overflow: none;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+.calci-o {
+  height: 60%;
+  width: 30%;
+  border-radius: 1.5rem;
+  background-color: #1e1e1e;
+  border-radius: 1rem;
+}
+
+.display {
+  height: 35%;
+  width: 100%;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 900;
+  resize: none;
+  background-color: #6c6c6d;
+}
+
+.calci {
+  height: 70%;
+  width: 100%;
+  margin: 0.5rem;
+  /* background-color: #1e1e1e; */
+}
+
+.col {
+  height: 13%;
+  width: 92%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+}
+
+.equal {
+  background-color: rgb(234, 157, 15);
+  color: white;
+  border: none;
+}
